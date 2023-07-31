@@ -1,27 +1,58 @@
-# UtplCookiesLib
+# Utpl Cookies
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+Developed within the Application Architecture Department at UTPL, this project is an adaptation of a component originally created by [jfeltkamp] (https://github.com/jfeltkamp/cookiesjsr). The original component was designed for managing cookies on a webpage, and we have adjusted it for functionality within an Angular 15 environment.
 
-## Development server
+## Installation
+1. First install on your project:
+`ng build utpl-cookies`
+#or
+`yarn add utpl-cookies`
+2. In the index.html file, append the following in the header section:
+`<link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/gh/jfeltkamp/cookiesjsr@1/dist/cookiesjsr.min.css" />`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Usage
+Add the utpl-cookies module to your app.module.ts as a provider:
+```typescript
 
-## Code scaffolding
+//Import library
+import {UtplCookiesModule} from 'utpl-cookies';
+@NgModule({
+    imports: [
+        UtplCookiesModule
+    ],
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Then, add selector id on your component html (layout):
+```html
 
-## Build
+<utpl-cookies> </utpl-cookies >
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+That's it!
 
-## Running unit tests
+## Demo
+[Utpl Pay](https://srv-si-001.utpl.edu.ec/PAY_WEB_TEST_V2/transaction/button/Dv3oRbPcxTJmdsy5Y8Hd539O4v%2BWPuQCnJYlW5cZatE%3D)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Custom config
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+
+## Custom actions
+
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+For any issues or questions, feel free to reach out to our support team:
+
+**Diego Sarmiento**
+<br>
+![Diego Sarmiento](https://dfssarmiento.github.io/)
+<br>
+Email: [dfsarmiento@utpl.edu.ec](mailto:dfsarmiento@utpl.edu.ec)
+
+**Felipe Quiñonez**
+<br>
+![Felipe Quiñonez](https://fdquinones.github.io/)
+<br>
+Email: [fdquinones@gmail.com](mailto:fdquinones@gmail.com)

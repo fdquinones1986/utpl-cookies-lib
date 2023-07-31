@@ -6,7 +6,7 @@
        },
        "interface": {
           "openSettingsHash": "#editCookieSettings",
-          "translationQuery": "https://unpkg.com/utpl-cookies@0.0.10/assets/cookiesjsr/lang/%lang_id/translation.json",
+          "translationQuery": "https://unpkg.com/utpl-cookies@0.0.11/assets/cookiesjsr/lang/%lang_id/translation.json",
           "availableLangs": ["es"],
           "defaultLang": "es"
        }

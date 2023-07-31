@@ -44,7 +44,7 @@ export class UtplCookiesComponent implements OnInit {
       scriptElement.textContent = `// Base configuration
         document.cookiesjsr = {
           apiUrl: '',
-          configQuery: 'https://unpkg.com/utpl-cookies@0.0.10/assets/cookiesjsr/cookiesjsr-config.json'
+          configQuery: 'https://unpkg.com/utpl-cookies@0.0.11/assets/cookiesjsr/cookiesjsr-config.json'
         }
         var dispatcher = {
           matomo: {
