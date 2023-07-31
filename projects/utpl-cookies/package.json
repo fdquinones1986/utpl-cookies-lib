@@ -1,0 +1,39 @@
+{
+  "name": "utpl-cookies",
+  "version": "0.0.10",
+  "peerDependencies": {
+    "@angular/common": "^15.0.4",
+    "@angular/core": "^15.0.4"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "keywords": [
+    "angular",
+    "angular-15",
+    "angular-16",
+    "utpl",
+    "service",
+    "angular-service",
+    "cookie-service",
+    "cookie",
+    "cookies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevermeister/ngx-cookie-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stevermeister/ngx-cookie-service/issues",
+    "email": "stepan@studytube.nl"
+  },
+  "contributors": [
+    {
+      "name": "Felipe Quiñonez"
+    },
+    {
+      "name": "Diego Sarmiento",
+      "email": "fdquinones@utpl.edu.ec"
+    }
+  ]
+}

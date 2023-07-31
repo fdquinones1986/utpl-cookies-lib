@@ -1,0 +1,31 @@
+{
+    "config": {
+       "cookie": {
+          "name": "cookiesjsr",
+          "expires": 31536000000
+       },
+       "interface": {
+          "openSettingsHash": "#editCookieSettings",
+          "translationQuery": "https://unpkg.com/utpl-cookies@0.0.10/assets/cookiesjsr/lang/%lang_id/translation.json",
+          "availableLangs": ["es"],
+          "defaultLang": "es"
+       }
+    },
+    "services": {
+       "default": {
+          "id": "default",
+          "services": []
+       },
+       "analytic": {
+          "id": "analytic",
+          "services": [{
+             "key": "gtag",
+             "type": "analytic",
+             "name": "Google Analytics",
+             "uri": "https://support.google.com/analytics/answer/6004245",
+             "needConsent": true
+          }
+          ]
+       }
+    }
+ }
